@@ -12,7 +12,7 @@ class ExtendedImageBlock(StructBlock):
 
 
 class StoryBlock(StreamBlock):
-    image = ImageChooserBlock()
+    extended_image = ExtendedImageBlock()
 
 
 class HomePage(Page):
